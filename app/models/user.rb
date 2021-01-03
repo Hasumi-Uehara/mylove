@@ -16,6 +16,5 @@ class User < ApplicationRecord
       message: "全角カタカナのみで入力して下さい"
     }
     validates :nickname, length: { maximum: 40 }
-    validates :profile, length: { maximum: 1000 }
   end
 end
